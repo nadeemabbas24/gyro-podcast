@@ -1,16 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AudioPlayer from "../components/AudioPlayer";
 import styles from "../styles/podcast-detail.module.css";
-import { useParams } from "react-router-dom";
-import { collection, doc, getDoc, onSnapshot, query } from "firebase/firestore";
+import { useParams, useNavigate } from "react-router-dom";
+import { collection, doc, onSnapshot, query } from "firebase/firestore";
 import { db } from "../firebaseConfig";
-import { useEffect } from "react";
 import { toast } from "react-toastify";
-import { useNavigate } from "react-router-dom";
 import Loader from "../components/Loader";
 import { useDispatch, useSelector } from "react-redux";
 import { setEpisode } from "../slices/episodeSlice";
-import { FaPauseCircle, FaPlayCircle } from "react-icons/fa";
 import PlayPauseBtn from "../components/PlayPauseBtn";
 
 const PodcastDetail = () => {
