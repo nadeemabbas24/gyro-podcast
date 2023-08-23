@@ -1,0 +1,13 @@
+:root{
+  --theme:rgb(18,18,64);
+  --highLighter:aqua;
+}
+body {
+  margin: 0;
+  background-color: rgb(18,18,64);
+  font-family: "Inter";  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

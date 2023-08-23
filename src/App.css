@@ -1,0 +1,10 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient( to right,rgb(18, 18, 64), rgba(97, 2, 97, 0.37));
+    color:aquamarine;  
+    position: relative;
+}

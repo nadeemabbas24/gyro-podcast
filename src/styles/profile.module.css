@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 2rem;
+    width: 450px;
+    padding: 1rem;
+    background-color: var(--theme);
+    box-shadow: 0 0 130px var(--highLighter);  
+    color:aquamarine;
+    font-family: "Inter";
+    border-top: 2px solid aquamarine;
+    border-left: 1px solid var(--highLighter);
+}
+.container p{
+  margin: 5px;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 1px double orange;
+    margin: 0;
+}
+.container div{
+    width: 100%;   
+}
+.container button{
+    margin: 20px;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column;
+    gap:20px;
+    padding-top: 5px;
+    width: 200px;
+    height: 250px;
+    box-shadow: inset -3px -3px 15px var(--highLighter);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.card img{
+    width: 95%;
+    height: 50%;
+    border-radius: 2rem;
+}
+.card:hover{
+    backdrop-filter: saturate(15);
+    box-shadow: inset 10px -10px 40px rgb(253, 0, 253);
+}
