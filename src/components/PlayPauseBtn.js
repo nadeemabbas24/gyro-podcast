@@ -1,13 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/play-pause-btn.module.css";
-import {
-  FaPlayCircle,
-  FaPodcast,
-  FaSatelliteDish,
-  FaStopCircle,
-  FaWifi,
-} from "react-icons/fa";
-import Loader from "./Loader";
+import { FaPlayCircle, FaPodcast } from "react-icons/fa";
 const PlayPauseBtn = ({
   playButton,
   setSelected,

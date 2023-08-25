@@ -11,7 +11,14 @@ const Podcast = ({ podcasts }) => {
   };
 
   return (
-    <div style={{ display: "flex", gap: "20px", margin: "2rem" }}>
+    <div
+      style={{
+        display: "flex",
+        gap: "20px",
+        margin: "2rem",
+        flexWrap: "wrap",
+      }}
+    >
       {podcasts.map((item) => (
         <Card key={item.id} podcast={item} navigate={gotoDetailPage} />
       ))}
