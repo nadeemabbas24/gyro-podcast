@@ -69,7 +69,7 @@ const AudioPlayer = ({ imageSrc, audioUrl }) => {
     <div className={styles.audio_player}>
       <audio src={audioUrl} type="audio/*" ref={audioRef}></audio>
       <div className={styles.image}>
-        <img src={imageSrc} />
+        <img src={imageSrc} alt="" />
       </div>
 
       {/* track controller */}

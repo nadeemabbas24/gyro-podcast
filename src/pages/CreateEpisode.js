@@ -36,7 +36,7 @@ const CreateEpisode = () => {
           audioUrl: audioUrl,
           user: auth.currentUser.uid,
         };
-        const docRef = await addDoc(
+        await addDoc(
           collection(db, "podcasts", podcastId, "episodes"),
           episodeData
         );
